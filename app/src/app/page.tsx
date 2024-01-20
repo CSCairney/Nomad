@@ -14,6 +14,9 @@ export default function Home() {
     <main className={styles.main}>
       <LocalStorage />
       <div className={styles.description}>
+        <h1 className="text-3xl italic font-bold underline">
+          Hello world!
+        </h1>
         <h2 className={styles.heading}>This is the starting page</h2>
         <ReduxTester />
       </div>
