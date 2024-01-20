@@ -19,8 +19,8 @@ export const NavbarLinks: NavLinks = {
             path: "/gallery"
         },
         {
-            name: "Members Area",
-            path: "/members-area"
+            name: "Dashboard",
+            path: "/dashboard"
         }
     ]
 };

@@ -1,3 +1,5 @@
+@use "src/styles/colors";
+
 .about{
-    color:white;
+    color:colors.$text-light-color;
 }
