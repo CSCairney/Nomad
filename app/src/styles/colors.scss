@@ -1,15 +1,25 @@
 /*
  * Base colours.
  */
- $-charcoal : #1b222c;
- $-black: #12151c;
- $-blood-red: #661b1c;
- $-dark-blood-red:#531516;
- $-light-grey: #ECECEC;
- $-sand: #FFF8EE;
- 
- /*
+$-charcoal : #1b222c;
+$-black: #12151c;
+$-blue: #3568AB;
+$-marine: #53609B;
+$-shady-blue: #36547A;
+$-gunmetal-blue: #4E6078;
+$-light-grey: #ECECEC;
+$-sand: #FFF8EE;
+$-harvest-gold: #E8AA24;
+
+/*
    * Components Colours.
    */
- $application-background: $-black;
- $application-navigation-background: $-charcoal;
+$application-light-background: $-light-grey;
+$application-light-navigation-background: $-sand;
+
+$button-light-background: $-shady-blue;
+$button-light-text: $-light-grey;
+$button-light-background-hover: $-blue;
+
+$text-light-color: $-black;
+$text-light-color-highlight: $-harvest-gold;

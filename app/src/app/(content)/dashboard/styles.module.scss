@@ -1,3 +1,5 @@
+@use "src/styles/colors";
+
 .dashboard{
-    color:white;
+    color:colors.$text-light-color;
 }
