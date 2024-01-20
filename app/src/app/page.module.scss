@@ -1,3 +1,5 @@
+@use "src/styles/colors";
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  color:white;
+  color: colors.$text-light-color;
 }
 
 .description {
@@ -17,6 +19,6 @@
 }
 
 .heading {
-  color:aliceblue;
+  color:inherit;
 }
 

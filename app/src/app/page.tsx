@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.module.scss'
 import { Metadata } from 'next';
 import LocalStorage from '@/components/common/LocalStorage';
 import ReduxTester from '@/components/common/ReduxTester';

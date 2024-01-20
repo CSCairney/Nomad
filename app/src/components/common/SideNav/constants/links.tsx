@@ -3,30 +3,24 @@ import { NavLinks } from "../types/nav";
 export const NavbarLinks: NavLinks = {
     links: [
         {
-            name: "About",
-            path: "/about"
+            name: "Club Info",
+            path: "/club-info"
+        },
+        {
+            name: "Location",
+            path: "/location"
         },
         {
             name: "Contact",
             path: "/contact"
         },
         {
-            name: "Dashboard",
-            path: "/dashboard",
-            subPaths: [
-                {
-                    name: "Customers",
-                    path: "/dashboard/customers"
-                },
-                {
-                    name: "Invoices",
-                    path: "/dashboard/invoices"
-                },
-                {
-                    name: "Stock",
-                    path: "/dashboard/stock"
-                },
-            ]
+            name: "Gallery",
+            path: "/gallery"
+        },
+        {
+            name: "Members Area",
+            path: "/members-area"
         }
     ]
 };
