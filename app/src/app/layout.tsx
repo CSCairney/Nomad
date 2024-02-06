@@ -1,5 +1,6 @@
 "use client";
 import { Inter } from 'next/font/google'
+import "./globals.css";
 import styles from "./layout.module.scss";
 import SideNav from '@/components/common/SideNav';
 import { Provider } from 'react-redux';
