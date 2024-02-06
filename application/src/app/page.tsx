@@ -5,8 +5,8 @@ import LocalStorage from '@/components/common/LocalStorage';
 import ReduxTester from '@/components/common/ReduxTester';
 
 export const metadata: Metadata = {
-  title: "Home | Idle Miner",
-  description: 'The Offical Idle Miner',
+  title: "Home | Nomad Badminton Club",
+  description: 'The Offical Website of Nomad Badminton Club',
 };
 
 export default function Home() {
@@ -14,6 +14,9 @@ export default function Home() {
     <main className={styles.main}>
       <LocalStorage />
       <div className={styles.description}>
+        <h1 className="text-2xl italic font-bold underline">
+          Hello world!
+        </h1>
         <h2 className={styles.heading}>This is the starting page</h2>
         <ReduxTester />
       </div>
